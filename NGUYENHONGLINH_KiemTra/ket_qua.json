@@ -1,0 +1,70 @@
+{
+  "raw_rows": 4707,
+  "clean_rows": 4707,
+  "missing_cells_before": 25,
+  "missing_cells_after_cleaning": 27,
+  "class_counts": {
+    "0": 3610,
+    "1": 1097
+  },
+  "split": {
+    "train": 3294,
+    "validation": 706,
+    "test": 707
+  },
+  "selection_rule": "Validation F1; tie break Recall",
+  "validation": {
+    "Logistic Regression": {
+      "Accuracy": 0.9631728045325779,
+      "Precision": 1.0,
+      "Recall": 0.8414634146341463,
+      "F1": 0.9139072847682119,
+      "ROC_AUC": 0.9808748087480874,
+      "confusion_matrix": [
+        [
+          542,
+          0
+        ],
+        [
+          26,
+          138
+        ]
+      ]
+    },
+    "Random Forest": {
+      "Accuracy": 0.9915014164305949,
+      "Precision": 1.0,
+      "Recall": 0.9634146341463414,
+      "F1": 0.9813664596273292,
+      "ROC_AUC": 1.0,
+      "confusion_matrix": [
+        [
+          542,
+          0
+        ],
+        [
+          6,
+          158
+        ]
+      ]
+    }
+  },
+  "selected": "Random Forest",
+  "test": {
+    "Accuracy": 0.9971711456859972,
+    "Precision": 1.0,
+    "Recall": 0.9878787878787879,
+    "F1": 0.9939024390243902,
+    "ROC_AUC": 0.9999664542099965,
+    "confusion_matrix": [
+      [
+        542,
+        0
+      ],
+      [
+        2,
+        163
+      ]
+    ]
+  }
+}
