@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(page_title='Sàng lọc nguy cơ tiểu đường', page_icon='🩺')
-st.title('Sàng lọc nguy cơ tiểu đường')
+st.title('SÀNG LỌC NGUY CƠ TIỂU ĐƯỜNG - NGUYỄN HỒNG LĨNH')
 st.caption('Bài thự hành, không sử dụng thực tế')
 BASE=Path(__file__).resolve().parent
 @st.cache_resource
