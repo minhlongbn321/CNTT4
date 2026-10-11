@@ -16,7 +16,7 @@ model=load_model()
 columns=['Glucose','HbA1C','Cholesterol','HDL','LDL','Triglycerid','Creatinine','Ure','AcidUric','AST','ALT']
 st.info('Chỉ sử dụng để nghiên cứu, không sử dụng thật.')
 with st.form('patient'):
-    age=st.number_input('Tuổi',min_value=1,max_value=120,value=40)
+    age=st.number_input('Tuổi',min_value=1,max_value=120,value=35)
     gender=st.selectbox('Giới tính',['Nam','Nữ'])
     values = {}
     for start in range(0, len(columns), 3):
